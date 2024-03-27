@@ -33,6 +33,6 @@ Feel free to explore the projects and their source code. If you'd like to run an
 
 ## Contact
 
-If you have any questions, suggestions, or just want to connect, you can reach me at [your@email.com]. I'm open to collaboration opportunities, freelance projects, or just chatting about web development!
+If you have any questions, suggestions, or just want to connect, you can reach me at [rairoshni2005@gmail.com]. I'm open to collaboration opportunities, freelance projects, or just chatting about web development!
 
 Happy browsing!
