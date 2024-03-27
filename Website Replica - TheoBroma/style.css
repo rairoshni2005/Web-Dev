@@ -1,0 +1,382 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Inter;
+}
+
+h1 {
+  font-family: "Overlock";
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 38px;
+  font-weight: 700;
+  color: #a9802a;
+  padding-bottom: 20px;
+  background-image: url(https://theobroma.in/cdn/shop/files/obroma-underline.png);
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: center;
+  
+}
+
+h2 {
+  font-size: 22px;
+  color: #a9802a;
+  font-family: "Overlock";
+  margin-bottom: 20px;
+}
+
+h6 {
+  font-family: "Inter";
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  color: #535353;
+  font-weight: 500;
+  line-height: 28px;
+}
+.btn-div {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hover-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  transition: color 0.3s ease;
+}
+.hover-text:hover {
+  color: #350d05; 
+  cursor: pointer; 
+}
+.main-btn {
+  font-family: "Overlock";
+  background-color: rgb(178, 221, 211);
+  font-weight: 600;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 1px solid;
+  border-color: #a9802a;
+  color: #a9802a;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+#navbar p {
+  color: #a9802a;
+  font-weight: 500;
+  font-size: 13px;
+  font-family: Inter;
+  display: inline-block;
+  padding: 10px 0;
+}
+
+#nav-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #a9802a;
+  border-bottom: 1px solid #a9802a;
+  height: 81px;
+  width: 100%;
+}
+
+.hover-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.hover-text:hover {
+  color: #ff5733; 
+  cursor: pointer; 
+}
+
+#nav-item img {
+  height: 80px;
+  border-bottom: 0px solid #a9802a;
+  border-left: 1px solid #a9802a;
+}
+
+#nav-item #menu {
+  display: flex;
+  gap: 36px;
+}
+
+#nav-item #menu a {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: #bea064;
+  text-decoration: none;
+}
+
+#hero img {
+  width: 100%;
+}
+
+#about {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#three-tiems {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.row-itm {
+  width: 33.33%;
+}
+
+#three-tiems .feature h2 {
+  font-family: Overlock;
+  color: #a9802a;
+  font-size: 22px;
+  padding-bottom: 1px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+#three-tiems .feature p {
+  font-size: 15px;
+  color: #282929;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+#our-products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 50px;
+  background-color: #fbecea;
+}
+
+.products {
+  display: flex;
+  max-width: 1280px;
+  flex-direction: row;
+  background-color: #fff;
+  margin-top: 25px;
+  padding-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.product-item {
+  max-width: 25%;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.product-item img {
+  width: 100%;
+}
+
+.product-item p {
+  font-family: "Overlock";
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #a9802a;
+  padding: 15px;
+}
+
+#left {
+  padding-top: 70px;
+  padding-left: 80px;
+  padding-right: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-text {
+  padding: 0px 50px;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left !important;
+}
+
+.left-text h1 {
+  font-size: 36px;
+  text-align: left;
+  background-position-x: left;
+}
+.left-text h6 {
+  text-align: left;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.left-text .btn-div {
+  padding-top: 0;
+}
+.side-img {
+  padding: 50px;
+  max-width: 50%;
+}
+
+.side-img img {
+  width: 100%;
+}
+
+#right {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f6d79040;
+  background-image: url(https://theobroma.in/cdn/shop/files/tea-time-background.jpg);
+  background-size: cover;
+  margin-top: 70px;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  padding-right: 80px;
+  padding-left: 80px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  
+}
+
+#right .side-img {
+  padding: 10px;
+}
+#testimonials {
+  padding: 15px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+#testimonials h1 {
+  margin-bottom: 2rem;
+}
+
+#testimonials img {
+  width: 76px;
+  padding: 10px;
+}
+
+#testimonials p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  font-family: Inter;
+  margin-top: 60px;
+  padding: 0px 50px;
+  width: 1010px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+#testimonials h3 {
+  color: #a9802a;
+  font-family: "Overlock";
+  font-size: 25px;
+}
+
+#best-seller {
+  background-color: #ebf6f4;
+  padding: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+#best-seller .products {
+  margin-top: 0px;
+}
+
+#cta {
+  background-image: url(https://theobroma.in/cdn/shop/files/Likeourprod-theo-new1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: bottom !important;
+  background-color: #f7eff5;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  height: 400px;
+}
+
+#footer {
+  padding-top: 25px;
+  background-color: #b0dcd1;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+}
+
+#footer-logo {
+  width: 17%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+#footer-logo img {
+  width: 180px;
+}
+
+.menu-footer {
+  width: 17%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.menu-footer a {
+  font-family: "Inter";
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+  line-height: 24px;
+  margin-top: 10px;
+}
+
+#contact {
+  width: 17%;
+}
+
+#last-section {
+  width: 32%;
+  font-family: "Inter";
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+}
